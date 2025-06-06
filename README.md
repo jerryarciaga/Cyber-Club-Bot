@@ -28,6 +28,16 @@ If you have `nix` installed, running `nix develop` gives you a shell with both P
 Run `poetry install` to load up the necessary modules.
 
 # Running the program
+
+## Set up your `.env` file
+Make sure you have the bot token generated through the Discord portal. Remember that you only get one chance to copy it to somewhere safe. Otherwise, you will have to regenerate that token.
+```
+$ cat src/cyber_club_bot/.env
+
+BOT_TOKEN=<put generated token here>
+```
+
+## Activate and run the module
 To run the program, run the following command in the repository's location:
 ```
 poetry run python -m cyber_club_bot
