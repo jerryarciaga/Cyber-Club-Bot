@@ -30,11 +30,11 @@ Run `poetry install` to load up the necessary modules.
 # Running the program
 
 ## Set up your `.env` file
-Make sure you have the bot token generated through the Discord portal. Remember that you only get one chance to copy it to somewhere safe. Otherwise, you will have to regenerate that token.
-```
-$ cat src/cyber_club_bot/.env
+Make sure you have the bot token generated through the Discord portal. Remember that you only get one chance to copy it to somewhere safe. Otherwise, you will have to regenerate that token. Then, copy `src/cyber_club_bot/.env.template` into `src/cyber_club_bot/.env`, then edit the template so it has the right data.
 
-BOT_TOKEN=<put generated token here>
+```
+$ cp src/cyber_club_bot/.env.template src/cyber_club_bot/.env
+$ vim src/cyber_club_bot/.env
 ```
 
 ## Activate and run the module
