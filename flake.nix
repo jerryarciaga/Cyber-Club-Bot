@@ -17,7 +17,7 @@
       ];
 
       shellHook = ''
-        export PS1="<Cyber-Club-Bot>\n[\w] > "
+        export PS1="[\w]\n(Cyber-Club-Bot) > "
       '';
     };
   };
